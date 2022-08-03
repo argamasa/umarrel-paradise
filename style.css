@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("./valla.png");
+    background-image: url("./valla1.png");
     overflow: hidden;
     height: 100%;
     display: block;
@@ -25,8 +25,8 @@ body {
 }
 
 .vimeo-wrapper iframe {
-  width: 36.3vw;
-  height: 29.6vw;
+  width: 67.3vw;
+  height: 45.6vw;
   /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
   
   min-height: 30vh;
@@ -34,8 +34,8 @@ body {
   /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
   
   position: absolute;
-  top: 34%;
-  left: 50%;
+  top: 41.3%;
+  left: 51%;
   transform: translate(-50%, -50%);    
 }
 
