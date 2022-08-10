@@ -12,14 +12,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-
+<script>
+  window.onload = function() {
+    var context = new AudioContext();
+  }
+  </script>
 
 <body>
+
+
+  <audio id="myaudio" controls autoplay name="media" loop playsinline >
+    <source src="./constructionsite.mp3" type="audio/mp3" > 
+    
+  </audio>
+  <script> document.getElementById('myaudio').play(); 
+  </script>
+  
 
     <div class="fullscreen">
         <div class="video">
           <div class="vimeo-wrapper">
-            <iframe src="https://player.vimeo.com/video/734545711?h=24d0b01909&autoplay=1&quality=720p&loop=1&title=0&byline=0&portrait=0&controls=0&playsinline=0" width="1080" height="1920" frameborder="0" allow="autoplay" allign="center;" ></iframe>
+            <iframe src="https://player.vimeo.com/video/734545711?h=24d0b01909&autoplay=1&quality=720p&loop=1&title=0&byline=0&portrait=0&controls=0&playsinline=0&background=1" width="1080" height="1920" frameborder="0" allow="autoplay" allign="center;" ></iframe>
            </div>
         </div>
       </div>
