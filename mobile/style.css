@@ -92,3 +92,18 @@ bottom: 5vh;
 right: 2vw;
 background-color: none;
 }
+
+
+.unmute{
+  position: fixed;
+  bottom: 0px;
+  right:3px;
+  z-index: 10;
+  border: none;
+  color: none;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
